@@ -1,0 +1,25 @@
+.Centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Letras{
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: auto;
+    text-decoration:underline ;
+}
+.Icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Icono img{
+    width: 40px;
+    transition: transfom 0.3s;
+}
+.Icono img:hover{
+    transform: scale(1.2);
+}
