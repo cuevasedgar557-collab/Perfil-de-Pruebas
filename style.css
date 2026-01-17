@@ -23,3 +23,26 @@
 .Icono img:hover{
     transform: scale(1.2);
 }
+details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    margin: 25px 0 0 0;
+    }
+    summary{
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        outline: none;
+    }
+    details[open] {
+        background-color: #eaf6ff;
+        border-color: #3498db;
+    }
+    details p {
+        margin-top: 10px;
+        line-height: 1.5;
+        color: #444;
+    }
