@@ -46,3 +46,30 @@ details{
         line-height: 1.5;
         color: #444;
     }
+    .pasar{
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .pasar2{
+     display: flex;
+     width: max-content;
+     animation: scroll 10s linear infinite;
+    }
+    .pasar:hover .pasar2{
+        animation-play-state: paused;
+    }
+    .pasar2 img{
+        width: 200px;
+        margin: 0 20px;
+        object-fit: cover;
+
+    }
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
